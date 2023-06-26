@@ -1,0 +1,271 @@
+  <!DOCTYPE html>
+  <html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>Ohio Valley</title>
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <link rel="icon" href="img/logosign.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css'>
+
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+
+  <body>
+
+   <!-- Navbar section -->
+
+   <header id="nav-menu" aria-label="navigation bar">
+    <div class="container">
+      <div class="nav-start">
+        <a class="logo" href="index.html">
+          <img src="img/logo.png" height="35" alt="Ohio Valley Logo" />
+        </a>
+        <nav class="menu">
+          <ul class="menu-bar">
+            <li><a class="nav-link" href="index.html">About</a></li>
+            <li>
+              <button class="nav-link dropdown-btn" data-dropdown="dropdown1" aria-haspopup="true" aria-expanded="false" aria-label="discover">
+                Surgical Hospital 
+                <i class="bx bx-chevron-down" aria-hidden="true"></i>
+              </button>
+              <div id="dropdown1" class="dropdown">
+                <ul role="menu">
+                  <li><span class="dropdown-link-title">Surgical Specialities</span></li>
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">Anesthesia</a></li>
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">Ear, Nose & Throat</a></li>
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">Endovascular Surgery</a></li>
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">Gastroenterology</a></li>
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">General Surgery</a></li>
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">Gynecology</a></li>
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">Optamology</a></li>
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">Opthomedic Surgery</a></li>
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">Pain Medicine</a></li>
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">Plastic Surgery</a></li>
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">Podiatry</a></li>
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">Spine Surgery</a></li>
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">Urology</a></li>
+                </ul>  
+              </div>
+            </li>
+            <li>
+              <button class="nav-link dropdown-btn" data-dropdown="dropdown2" aria-haspopup="true" aria-expanded="false" aria-label="discover">
+                Programs & Services 
+                <i class="bx bx-chevron-down" aria-hidden="true"></i>
+              </button>
+              <div id="dropdown2" class="dropdown">
+                <ul role="menu">
+                  <li><span class="dropdown-link-title">Programs</span></li>
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">Program dropdown 1</a></li>
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">Program dropdown 2</a></li>
+                  <li><span class="dropdown-link-title">Services</span></li>
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">Service dropown 1</a></li>
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">Service dropown 2</a></li>
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">Service dropown 3</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a class="nav-link" href="index.html">Our Physicians</a></li>
+            <li>
+              <button class="nav-link dropdown-btn" data-dropdown="dropdown3" aria-haspopup="true" aria-expanded="false" aria-label="discover">
+                Patient info 
+                <i class="bx bx-chevron-down" aria-hidden="true"></i>
+              </button>
+              <div id="dropdown3" class="dropdown">
+                <ul role="menu">
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">Patient Education</a></li>
+                  <li role="menuitem"><a class="dropdown-link" href="index.html">Maps and Directions</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="nav-end">
+        <div class="right-container">
+          <i class="bx bx-phone" aria-hidden="true"></i><span>937.521.3910</span>
+          <form class="search" role="search">
+            <input type="search" name="search" placeholder="Search" />
+            <i class="bx bx-search" aria-hidden="true"></i>
+          </form>
+          <button class="btn btn-primary">Log in</button>
+        </div>
+
+        <button id="hamburger" aria-label="hamburger" aria-haspopup="true" aria-expanded="false">
+          <i class="bx bx-menu-alt-right" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Slider section -->
+
+  <section class="slider-section">
+    <div class="wrapper">
+
+      <div class="content">
+        <div class="bg-shape"><img src="img/logo_light.png" alt=""></div>
+
+
+        <div class="slider-part">
+
+          <div class="slider-part__item" id="img1">
+            <img src="img/slider_img1.png" alt="" class="slider-part__img">
+          </div>
+
+          <div class="slider-part__item" id="img2">
+            <img src="img/slider_img2.png" alt="" class="slider-part__img">
+          </div>
+
+          <div class="slider-part__item" id="img3">
+            <img src="img/slider_img3.png" alt="" class="slider-part__img">
+          </div>
+
+        </div>
+
+        <div class="img-slider">
+          <button class="prev disabled">
+           <i class="bx bx-chevron-left" aria-hidden="true"></i>
+         </button>
+         <button class="next">
+          <i class="bx bx-chevron-right" aria-hidden="true"></i>
+        </button>
+
+        <div class="img-slider__wrp swiper-wrapper">
+          <div class="img-slider__item swiper-slide" data-target="img1">
+            <div class="img-slider__card">
+              <img src="img/slider_card1.png" alt="" class="img-slider__cover">
+              <div class="img-slider__content">
+                <h1 class="img-slider__title">Surgical Excellence is More than Skin Deep.</h1>
+
+                <div class="slider-desc">
+                  <p style="font-size: 20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique pulvinar ligula vitae ornare. Vivamus eget felis ante. Vivamus porta sem sit amet massa condimentum, sit amet lobortis massa efficitur.</p>
+                </div>
+
+                <div class="img-slider__bottom">
+                  <button class="img-slider__button">Learn more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-slider__item swiper-slide" data-target="img2">
+            <div class="img-slider__card">
+              <img src="img/slider_card2.png" alt="" class="img-slider__cover">
+              <div class="img-slider__content">
+                <h1 class="img-slider__title">Expert Medical Advice for Health and Wellness</h1>
+
+                <div class="slider-desc">
+
+                  <p style="font-size: 20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique pulvinar ligula vitae ornare. Vivamus eget felis ante. Vivamus porta sem sit amet massa condimentum, sit amet lobortis massa efficitur.</p>
+
+                </div>
+
+                <div class="img-slider__bottom">
+                  <button class="img-slider__button">Learn more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-slider__item swiper-slide" data-target="img3">
+            <div class="img-slider__card">
+              <img src="img/slider_card3.png" alt="" class="img-slider__cover">
+              <div class="img-slider__content">
+                <h1 class="img-slider__title">Your Health, Our Priority: Trusted Medical Resources</h1>
+
+                <div class="slider-desc">
+
+                  <p style="font-size: 20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique pulvinar ligula vitae ornare. Vivamus eget felis ante. Vivamus porta sem sit amet massa condimentum, sit amet lobortis massa efficitur.</p>
+
+                </div>
+
+                <div class="img-slider__bottom">
+                  <button class="img-slider__button">Learn more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- News section -->
+
+<section class="news-section">
+  <h1 class="line-title">Latest news and articles</h1>
+
+  <div class="owl-carousel custom-carousel owl-theme">
+    <div class="item active" style="background-image: url(img/card_item1.png);">
+      <div class="item-desc">
+        <h3>Surgical procedures</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit ante turpis, ut dictum nisl cursus at. Etiam mollis nec felis quis scelerisque.</p>
+        <button class="img-slider__button">Read more</button>
+      </div>
+    </div>
+    <div class="item" style="background-image: url(img/card_item2.png);">
+      <div class="item-desc">
+        <h3>Happy Patients Come in All Sizes</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit ante turpis, ut dictum nisl cursus at. Etiam mollis nec felis quis scelerisque.</p>
+        <button class="img-slider__button">Read more</button>
+      </div>
+    </div>
+    <div class="item" style="background-image: url(img/card_item3.png);">
+      <div class="item-desc">
+        <h3>99% Patient Satisfaction</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit ante turpis, ut dictum nisl cursus at. Etiam mollis nec felis quis scelerisque.</p>
+        <button class="img-slider__button">Read more</button>
+      </div>
+    </div>
+    <div class="item" style="background-image: url(img/card_item4.png);">
+      <div class="item-desc">
+        <h3>"We found answers here"</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit ante turpis, ut dictum nisl cursus at. Etiam mollis nec felis quis scelerisque.</p>
+        <button class="img-slider__button">Read more</button>
+      </div>
+    </div>
+    <div class="item" style="background-image: url(img/card_item5.png);">
+      <div class="item-desc">
+        <h3>Breakthrough in Cancer Treatment</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit ante turpis, ut dictum nisl cursus at. Etiam mollis nec felis quis scelerisque.</p>
+        <button class="img-slider__button">Read more</button>
+      </div>
+    </div>
+    <div class="item" style="background-image: url(img/card_item6.png);">
+      <div class="item-desc">
+        <h3>Managing Stress for a Balanced Life</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit ante turpis, ut dictum nisl cursus at. Etiam mollis nec felis quis scelerisque.</p>
+        <button class="img-slider__button">Read more</button>
+      </div>
+    </div>
+    <div class="item" style="background-image: url(img/card_item7.png);">
+      <div class="item-desc">
+        <h3>Revolutionizing Healthcare</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit ante turpis, ut dictum nisl cursus at. Etiam mollis nec felis quis scelerisque.</p>
+        <button class="img-slider__button">Read more</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>
+
+<!-- JS -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
